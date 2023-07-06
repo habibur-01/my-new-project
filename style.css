@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    list-style: none;
+    color: white;
+}
+.logo-photo{
+    width: 120px;
+    
+}
+.menubar{
+    
+    display: flex;
+
+}
+.item{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.item:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+
