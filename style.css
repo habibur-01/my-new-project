@@ -8,19 +8,19 @@
     align-items: center;
     background-color: black;
     list-style: none;
-    color: white;
+    padding: 20px;
 }
 .logo-photo{
     width: 120px;
     
 }
 .menubar{
-    
+    color: white;
     display: flex;
-
 }
 .item{
     margin-right: 20px;
+    padding-right: 10px;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
@@ -29,5 +29,59 @@
     color: yellow;
     text-decoration: underline;
 }
+.banner-img{
+    width: 340px;
+    height: 320px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./images/background.png),linear-gradient(45deg, rgb(8,8,8), rgb(53,53,53));
+    color: white;
+}
+.title{
+    font-size: 52px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.text{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 15px 25px;
+    background-color: brown;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+.about-title{
+    text-align: center;
+    padding: 25px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 15px;
+}
+.a-heading{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.a-text{
+    font-size: 22px;
+    line-height: 30px;
+}
+.a-btn{
+    margin-top: 15px;
+}
+
+
 
 
