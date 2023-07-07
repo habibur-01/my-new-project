@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .pitha {
+            width: 40%;
+        }
+        .btn{
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: red;
+            color: white;
+            border: none;
+
+        }
+        .btn:hover{
+            cursor: pointer;
+            transform: rotate(-180deg);
+            transition: 1.5s;
+
+        }
+        .img-logo{
+           background-color: black;
+           background-size: cover;
+           background-repeat: no-repeat;
+           height: 40vh;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+          
+           .img1{
+            width: 100px;
+           }
+        }
+        .img2{
+            width: 100px;
+            position:relative;
+            animation: mymove 2s infinite;
+        }
+        @keyframes mymove{
+            from {top: 10px;}
+            to {bottom: 20px;}
+        }
+
+    </style>
+    
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+
+        <h1 style="text-transform: uppercase;">practise create a link and download file</h1>
+        <section>
+            <div class="img-logo">
+                <div class="img2">
+                    <img class="img1" src="./icon/0.png" alt=""></div>
+                
+            </div>
+        </section>
+        <button><a href="./background.jpg" download>Click here</a>
+        </button><br>
+
+        <form>
+            <label for="name">Your name
+                <input type="text" name="" id="name">
+            </label>
+            <label for="email">Your email
+                <input type="text" name="" id="email">
+            </label>
+            <label for="phone">Phone
+                <input type="text" maxlength="11" name="" id="phone">
+            </label>
+            <fieldset class="pitha">
+                <legend>
+                    Pick a Pitha
+                </legend>
+                <label for="">
+                    <input type="radio" name="pitha" id="">Chitoy
+                </label>
+                <label for="">
+                    <input type="radio" name="pitha" id="">Chitoy
+                </label>
+                <label for="">
+                    <input type="radio" name="pitha" id="">Chitoy
+                </label>
+
+            </fieldset>
+            <fieldset class="pitha">
+                <legend>Description</legend>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </fieldset>
+            <input type="reset" value="Reset">
+
+        </form>
+        <input type="number" min="5" max="10"><br>
+        <button class="btn" type="submit">Submit</button>
+    </main>
+    <div class="footer">
+
+    </div>
+</body>
+
+</html>
